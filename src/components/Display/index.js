@@ -7,7 +7,7 @@ const Display = () => {
     const { level } = useSelector(({ DisplayCard }) => DisplayCard )
     return(
         <div>
-           { level === "{firstCard}" && <Option/> }
+           { level === "firstCard" && <Option/> }
            { level === "secondCard" && <OptionTwo/> }
         </div>
     )
