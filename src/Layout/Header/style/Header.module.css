@@ -1,0 +1,44 @@
+#body {
+  display: flex;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0 20px;
+  background-color: #1f7bd8;
+  display: flex;
+  justify-content:space-around;
+  
+}
+
+
+.logo {
+  width: auto;
+  height: 60px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.navItem {
+  margin-right: 20px;
+}
+
+.login {
+  font-family: Poppins;
+  color: white;
+  font-size: 14px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}

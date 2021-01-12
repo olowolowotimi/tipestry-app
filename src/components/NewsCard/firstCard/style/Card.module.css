@@ -1,0 +1,88 @@
+.card {
+  margin-top: 15px;
+  display: flex;
+  padding: 15px;
+}
+
+.iconWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.iconCount {
+  font-size: 12px;
+  margin: 5px 0px;
+  color: #757575;
+}
+
+.content {
+  display: flex;
+}
+
+.image {
+  width: 70px;
+  height: 70px;
+  min-width: 70px;
+  min-height: 70px;
+  background-color: #cccccc;
+  margin: 0px 15px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.title {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #3c3c3c;
+}
+
+.text {
+  font-size: 13px;
+  margin: 5px 0px;
+  color: #757575;
+  line-height: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: #3a6dc5;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.actionsItem {
+  margin-right: 10px;
+}
+
+.messageAction {
+  display: flex;
+  align-items: center;
+}
+
+.messageActionCount {
+  color: #757575;
+  margin-left: 5px;
+}
+
+.moneyBagImg {
+  height: 25px;
+}
+
+.dogeImg {
+  height: 20px;
+}
+@media only screen and (max-width: 768px){
+.card{
+  width: 110%;
+}
+}

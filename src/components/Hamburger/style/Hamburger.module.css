@@ -1,0 +1,26 @@
+
+.inactiveMenu{
+    display: none;
+    
+}
+.mobileMenu{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.option{
+    color: white;
+    padding: 20px 0;
+    width: 150px;
+    height: 40px;
+    display: none;
+}
+@media only screen and (max-width: 768px){
+    .option{
+        display: block;
+        
+    }
+    .side{
+        width: 320px;
+    }
+}

@@ -1,0 +1,44 @@
+.container {
+  padding: 100px 15%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 30px;
+}
+
+.searchBar {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+}
+
+.searchInput {
+  flex: 1;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+  margin: 0px 10px;
+}
+
+.searchButton {
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 300ms ease-out;
+  border-radius: 5px;
+}
+
+.searchButton:hover {
+  background-color: #f2f2f2;
+}
+@media only screen and (max-width: 768px){
+  .container{
+    width: 100%;
+    padding: 20% 0;
+  }
+.side{
+  display: none;
+}
+.searchBar{
+  width: 100%;;
+}
+}

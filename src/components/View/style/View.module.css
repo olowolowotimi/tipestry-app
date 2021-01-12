@@ -1,0 +1,28 @@
+.cardTwo{
+    display: flex;
+    margin: 12px 0;
+    align-items: center; 
+    padding: 0 5px;
+    justify-content: space-evenly;
+}
+.cardTwo button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.cardTwo button:focus{
+    border: none !important;
+    
+}
+.vertical{
+    border-right-style: solid;
+    border-right-width: thin;
+    border: 1px solid grey;
+    height: 25px;
+}
+.optionOne select{
+    border: none;
+}
+.optionTwo select{
+    border: none;
+}

@@ -1,0 +1,19 @@
+@import './normalize.css';
+
+html,
+body {
+  background-color: rgba(230, 236, 240);
+}
+
+* {
+  font-family: Poppins;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(189, 171, 171, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  border: 1px solid rgb(156, 146, 146) (180, 158, 158);
+  background: white;
+}
+

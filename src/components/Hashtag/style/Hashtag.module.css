@@ -1,0 +1,14 @@
+.sideCard {
+    background-color: white;
+  }
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 20px;
+    letter-spacing: -0.02px;
+    color: #3a6dc5;
+  }
+  .tags a {
+    padding: 6px;
+  }

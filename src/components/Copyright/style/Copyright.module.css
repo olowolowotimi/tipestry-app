@@ -1,0 +1,25 @@
+.bold {
+    font-weight: bold;
+  }
+  .secondCard {
+    margin: 20px 0;
+    padding: 5px 25px;
+  }
+  .summary {
+    display: flex;
+    flex-wrap: wrap;
+    color: grey;
+    font-size: 15px;
+  }
+  .summary a {
+    padding: 3px;
+    cursor: pointer;
+  }
+  .summary a:hover {
+    color: rgb(22, 22, 22);
+  }
+  
+  .social svg {
+    height: 12%;
+    width: 12%;
+  }
