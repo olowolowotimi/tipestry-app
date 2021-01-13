@@ -1,6 +1,12 @@
 .card{
     margin: 30px 0;
-    padding: 10px 30px;
+    padding: 15px 20px;
+}
+.link{
+  color: #3a6dc5;
+}
+.linkup{
+  padding: 20px 0;
 }
 .image {
     width: 100%;
@@ -8,22 +14,29 @@
     min-width: 100%;
     min-height: 400px;
     background-color: #cccccc;
-    margin: 0px 15px;
+    margin: 0px 10px;
     border-radius: 20px;
     overflow: hidden;
   }
-  .moneyBagImg {
-    height: 25px;
-  }
   .downicons{
     display: flex;
-    padding: 20px 0;
+    padding: 50px 0;
+    width: 500px;
   }
+  
   .iconWrapper{
+width: 80px;
 display: flex;
+
+  }
+  .iconCount{
+    margin-top: 8px;
+    font-size: 12px;
+    color: #757575;
   }
   .actionsItem{
-    margin: 0 30px;
+    margin-top: -20px;
+    margin-left: 40px;
   }
   .messageAction{
     display: flex;
